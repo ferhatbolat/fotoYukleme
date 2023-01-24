@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00EB6FA81BA45369A51F2F6D /* Pods_resimYukleme_resimYuklemeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 44FFAA1DE25333B1311FD9D2 /* Pods_resimYukleme_resimYuklemeUITests.framework */; };
+		130C63D0297A85CA00A555D5 /* MEdia.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130C63CF297A85CA00A555D5 /* MEdia.swift */; };
+		130C63D6297FFD4E00A555D5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 130C63D5297FFD4D00A555D5 /* API.swift */; };
+		13271B5329508A4900AA08E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B5229508A4900AA08E5 /* AppDelegate.swift */; };
+		13271B5529508A4900AA08E5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B5429508A4900AA08E5 /* SceneDelegate.swift */; };
+		13271B5729508A4900AA08E5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B5629508A4900AA08E5 /* ViewController.swift */; };
+		13271B5A29508A4900AA08E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13271B5829508A4900AA08E5 /* Main.storyboard */; };
+		13271B5C29508A4A00AA08E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13271B5B29508A4A00AA08E5 /* Assets.xcassets */; };
+		13271B5F29508A4A00AA08E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 13271B5D29508A4A00AA08E5 /* LaunchScreen.storyboard */; };
+		13271B6A29508A4A00AA08E5 /* resimYuklemeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B6929508A4A00AA08E5 /* resimYuklemeTests.swift */; };
+		13271B7429508A4A00AA08E5 /* resimYuklemeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B7329508A4A00AA08E5 /* resimYuklemeUITests.swift */; };
+		13271B7629508A4A00AA08E5 /* resimYuklemeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13271B7529508A4A00AA08E5 /* resimYuklemeUITestsLaunchTests.swift */; };
+		1393FCE129658C380019F8FE /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1393FCE029658C380019F8FE /* ImageViewController.swift */; };
+		13C9B26B29793B8B00CDAC83 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 13C9B26A29793B8B00CDAC83 /* Alamofire */; };
+		D0BFA179AC6845B022C3078A /* Pods_resimYukleme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E54528F814462390019C41E6 /* Pods_resimYukleme.framework */; };
+		D6ADC23B82752C4F4854E773 /* Pods_resimYuklemeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E2D91328CDA39C6CB8841FD /* Pods_resimYuklemeTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		13271B6629508A4A00AA08E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13271B4729508A4900AA08E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13271B4E29508A4900AA08E5;
+			remoteInfo = resimYukleme;
+		};
+		13271B7029508A4A00AA08E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 13271B4729508A4900AA08E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13271B4E29508A4900AA08E5;
+			remoteInfo = resimYukleme;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		130C63CF297A85CA00A555D5 /* MEdia.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MEdia.swift; sourceTree = "<group>"; };
+		130C63D5297FFD4D00A555D5 /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		13271B4F29508A4900AA08E5 /* resimYukleme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = resimYukleme.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13271B5229508A4900AA08E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		13271B5429508A4900AA08E5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		13271B5629508A4900AA08E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		13271B5929508A4900AA08E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		13271B5B29508A4A00AA08E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		13271B5E29508A4A00AA08E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		13271B6029508A4A00AA08E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		13271B6529508A4A00AA08E5 /* resimYuklemeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resimYuklemeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13271B6929508A4A00AA08E5 /* resimYuklemeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resimYuklemeTests.swift; sourceTree = "<group>"; };
+		13271B6F29508A4A00AA08E5 /* resimYuklemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = resimYuklemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		13271B7329508A4A00AA08E5 /* resimYuklemeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resimYuklemeUITests.swift; sourceTree = "<group>"; };
+		13271B7529508A4A00AA08E5 /* resimYuklemeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resimYuklemeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1393FCE029658C380019F8FE /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
+		2F33D4C08D798331DF88DF66 /* Pods-resimYukleme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYukleme.debug.xcconfig"; path = "Target Support Files/Pods-resimYukleme/Pods-resimYukleme.debug.xcconfig"; sourceTree = "<group>"; };
+		3BBF712974C847F015C5AAB6 /* Pods-resimYuklemeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYuklemeTests.release.xcconfig"; path = "Target Support Files/Pods-resimYuklemeTests/Pods-resimYuklemeTests.release.xcconfig"; sourceTree = "<group>"; };
+		3E2D91328CDA39C6CB8841FD /* Pods_resimYuklemeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resimYuklemeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		44FFAA1DE25333B1311FD9D2 /* Pods_resimYukleme_resimYuklemeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resimYukleme_resimYuklemeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76BDAAF1D3F7AE5E4F591B0E /* Pods-resimYukleme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYukleme.release.xcconfig"; path = "Target Support Files/Pods-resimYukleme/Pods-resimYukleme.release.xcconfig"; sourceTree = "<group>"; };
+		7F36D4EDC966BB4373C39146 /* Pods-resimYukleme-resimYuklemeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYukleme-resimYuklemeUITests.release.xcconfig"; path = "Target Support Files/Pods-resimYukleme-resimYuklemeUITests/Pods-resimYukleme-resimYuklemeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B7CF32450182E578D7AFA06B /* Pods-resimYuklemeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYuklemeTests.debug.xcconfig"; path = "Target Support Files/Pods-resimYuklemeTests/Pods-resimYuklemeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B99D33ECF1012E99E6431C /* Pods-resimYukleme-resimYuklemeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-resimYukleme-resimYuklemeUITests.debug.xcconfig"; path = "Target Support Files/Pods-resimYukleme-resimYuklemeUITests/Pods-resimYukleme-resimYuklemeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		E54528F814462390019C41E6 /* Pods_resimYukleme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_resimYukleme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		13271B4C29508A4900AA08E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13C9B26B29793B8B00CDAC83 /* Alamofire in Frameworks */,
+				D0BFA179AC6845B022C3078A /* Pods_resimYukleme.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6229508A4A00AA08E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6ADC23B82752C4F4854E773 /* Pods_resimYuklemeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6C29508A4A00AA08E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00EB6FA81BA45369A51F2F6D /* Pods_resimYukleme_resimYuklemeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13271B4629508A4900AA08E5 = {
+			isa = PBXGroup;
+			children = (
+				130C63D5297FFD4D00A555D5 /* API.swift */,
+				13271B5129508A4900AA08E5 /* resimYukleme */,
+				13271B6829508A4A00AA08E5 /* resimYuklemeTests */,
+				13271B7229508A4A00AA08E5 /* resimYuklemeUITests */,
+				13271B5029508A4900AA08E5 /* Products */,
+				899B3343038FB66FD502920E /* Pods */,
+				5E918B0D90FB31B851A9CFB0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		13271B5029508A4900AA08E5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				13271B4F29508A4900AA08E5 /* resimYukleme.app */,
+				13271B6529508A4A00AA08E5 /* resimYuklemeTests.xctest */,
+				13271B6F29508A4A00AA08E5 /* resimYuklemeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		13271B5129508A4900AA08E5 /* resimYukleme */ = {
+			isa = PBXGroup;
+			children = (
+				13271B5229508A4900AA08E5 /* AppDelegate.swift */,
+				13271B5429508A4900AA08E5 /* SceneDelegate.swift */,
+				13271B5629508A4900AA08E5 /* ViewController.swift */,
+				13271B5829508A4900AA08E5 /* Main.storyboard */,
+				13271B5B29508A4A00AA08E5 /* Assets.xcassets */,
+				13271B5D29508A4A00AA08E5 /* LaunchScreen.storyboard */,
+				13271B6029508A4A00AA08E5 /* Info.plist */,
+				1393FCE029658C380019F8FE /* ImageViewController.swift */,
+				130C63CF297A85CA00A555D5 /* MEdia.swift */,
+			);
+			path = resimYukleme;
+			sourceTree = "<group>";
+		};
+		13271B6829508A4A00AA08E5 /* resimYuklemeTests */ = {
+			isa = PBXGroup;
+			children = (
+				13271B6929508A4A00AA08E5 /* resimYuklemeTests.swift */,
+			);
+			path = resimYuklemeTests;
+			sourceTree = "<group>";
+		};
+		13271B7229508A4A00AA08E5 /* resimYuklemeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				13271B7329508A4A00AA08E5 /* resimYuklemeUITests.swift */,
+				13271B7529508A4A00AA08E5 /* resimYuklemeUITestsLaunchTests.swift */,
+			);
+			path = resimYuklemeUITests;
+			sourceTree = "<group>";
+		};
+		5E918B0D90FB31B851A9CFB0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E54528F814462390019C41E6 /* Pods_resimYukleme.framework */,
+				44FFAA1DE25333B1311FD9D2 /* Pods_resimYukleme_resimYuklemeUITests.framework */,
+				3E2D91328CDA39C6CB8841FD /* Pods_resimYuklemeTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		899B3343038FB66FD502920E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2F33D4C08D798331DF88DF66 /* Pods-resimYukleme.debug.xcconfig */,
+				76BDAAF1D3F7AE5E4F591B0E /* Pods-resimYukleme.release.xcconfig */,
+				C7B99D33ECF1012E99E6431C /* Pods-resimYukleme-resimYuklemeUITests.debug.xcconfig */,
+				7F36D4EDC966BB4373C39146 /* Pods-resimYukleme-resimYuklemeUITests.release.xcconfig */,
+				B7CF32450182E578D7AFA06B /* Pods-resimYuklemeTests.debug.xcconfig */,
+				3BBF712974C847F015C5AAB6 /* Pods-resimYuklemeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		13271B4E29508A4900AA08E5 /* resimYukleme */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13271B7929508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYukleme" */;
+			buildPhases = (
+				EC1E9264F5C78B0517B2D123 /* [CP] Check Pods Manifest.lock */,
+				13271B4B29508A4900AA08E5 /* Sources */,
+				13271B4C29508A4900AA08E5 /* Frameworks */,
+				13271B4D29508A4900AA08E5 /* Resources */,
+				F004B27D323B2CEB4371C873 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = resimYukleme;
+			packageProductDependencies = (
+				13C9B26A29793B8B00CDAC83 /* Alamofire */,
+			);
+			productName = resimYukleme;
+			productReference = 13271B4F29508A4900AA08E5 /* resimYukleme.app */;
+			productType = "com.apple.product-type.application";
+		};
+		13271B6429508A4A00AA08E5 /* resimYuklemeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13271B7C29508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYuklemeTests" */;
+			buildPhases = (
+				0DB9C6499EC2947D30455D47 /* [CP] Check Pods Manifest.lock */,
+				13271B6129508A4A00AA08E5 /* Sources */,
+				13271B6229508A4A00AA08E5 /* Frameworks */,
+				13271B6329508A4A00AA08E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13271B6729508A4A00AA08E5 /* PBXTargetDependency */,
+			);
+			name = resimYuklemeTests;
+			productName = resimYuklemeTests;
+			productReference = 13271B6529508A4A00AA08E5 /* resimYuklemeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		13271B6E29508A4A00AA08E5 /* resimYuklemeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 13271B7F29508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYuklemeUITests" */;
+			buildPhases = (
+				7FACF789BE74DB584AADC7F3 /* [CP] Check Pods Manifest.lock */,
+				13271B6B29508A4A00AA08E5 /* Sources */,
+				13271B6C29508A4A00AA08E5 /* Frameworks */,
+				13271B6D29508A4A00AA08E5 /* Resources */,
+				CEC3FF4D07592D358710CD51 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				13271B7129508A4A00AA08E5 /* PBXTargetDependency */,
+			);
+			name = resimYuklemeUITests;
+			productName = resimYuklemeUITests;
+			productReference = 13271B6F29508A4A00AA08E5 /* resimYuklemeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		13271B4729508A4900AA08E5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					13271B4E29508A4900AA08E5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					13271B6429508A4A00AA08E5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13271B4E29508A4900AA08E5;
+					};
+					13271B6E29508A4A00AA08E5 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13271B4E29508A4900AA08E5;
+					};
+				};
+			};
+			buildConfigurationList = 13271B4A29508A4900AA08E5 /* Build configuration list for PBXProject "resimYukleme" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 13271B4629508A4900AA08E5;
+			packageReferences = (
+				13C9B26929793B8B00CDAC83 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 13271B5029508A4900AA08E5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				13271B4E29508A4900AA08E5 /* resimYukleme */,
+				13271B6429508A4A00AA08E5 /* resimYuklemeTests */,
+				13271B6E29508A4A00AA08E5 /* resimYuklemeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		13271B4D29508A4900AA08E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13271B5F29508A4A00AA08E5 /* LaunchScreen.storyboard in Resources */,
+				13271B5C29508A4A00AA08E5 /* Assets.xcassets in Resources */,
+				13271B5A29508A4900AA08E5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6329508A4A00AA08E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6D29508A4A00AA08E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0DB9C6499EC2947D30455D47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-resimYuklemeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FACF789BE74DB584AADC7F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-resimYukleme-resimYuklemeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEC3FF4D07592D358710CD51 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resimYukleme-resimYuklemeUITests/Pods-resimYukleme-resimYuklemeUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resimYukleme-resimYuklemeUITests/Pods-resimYukleme-resimYuklemeUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resimYukleme-resimYuklemeUITests/Pods-resimYukleme-resimYuklemeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC1E9264F5C78B0517B2D123 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-resimYukleme-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F004B27D323B2CEB4371C873 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resimYukleme/Pods-resimYukleme-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-resimYukleme/Pods-resimYukleme-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-resimYukleme/Pods-resimYukleme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		13271B4B29508A4900AA08E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13271B5729508A4900AA08E5 /* ViewController.swift in Sources */,
+				13271B5329508A4900AA08E5 /* AppDelegate.swift in Sources */,
+				1393FCE129658C380019F8FE /* ImageViewController.swift in Sources */,
+				13271B5529508A4900AA08E5 /* SceneDelegate.swift in Sources */,
+				130C63D6297FFD4E00A555D5 /* API.swift in Sources */,
+				130C63D0297A85CA00A555D5 /* MEdia.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6129508A4A00AA08E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13271B6A29508A4A00AA08E5 /* resimYuklemeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		13271B6B29508A4A00AA08E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13271B7629508A4A00AA08E5 /* resimYuklemeUITestsLaunchTests.swift in Sources */,
+				13271B7429508A4A00AA08E5 /* resimYuklemeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		13271B6729508A4A00AA08E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13271B4E29508A4900AA08E5 /* resimYukleme */;
+			targetProxy = 13271B6629508A4A00AA08E5 /* PBXContainerItemProxy */;
+		};
+		13271B7129508A4A00AA08E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13271B4E29508A4900AA08E5 /* resimYukleme */;
+			targetProxy = 13271B7029508A4A00AA08E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		13271B5829508A4900AA08E5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13271B5929508A4900AA08E5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		13271B5D29508A4A00AA08E5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				13271B5E29508A4A00AA08E5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		13271B7729508A4A00AA08E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		13271B7829508A4A00AA08E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		13271B7A29508A4A00AA08E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F33D4C08D798331DF88DF66 /* Pods-resimYukleme.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = resimYukleme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYukleme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		13271B7B29508A4A00AA08E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76BDAAF1D3F7AE5E4F591B0E /* Pods-resimYukleme.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = resimYukleme/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYukleme;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		13271B7D29508A4A00AA08E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7CF32450182E578D7AFA06B /* Pods-resimYuklemeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYuklemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resimYukleme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resimYukleme";
+			};
+			name = Debug;
+		};
+		13271B7E29508A4A00AA08E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BBF712974C847F015C5AAB6 /* Pods-resimYuklemeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYuklemeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/resimYukleme.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/resimYukleme";
+			};
+			name = Release;
+		};
+		13271B8029508A4A00AA08E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C7B99D33ECF1012E99E6431C /* Pods-resimYukleme-resimYuklemeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYuklemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resimYukleme;
+			};
+			name = Debug;
+		};
+		13271B8129508A4A00AA08E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F36D4EDC966BB4373C39146 /* Pods-resimYukleme-resimYuklemeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fb.resimYuklemeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = resimYukleme;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		13271B4A29508A4900AA08E5 /* Build configuration list for PBXProject "resimYukleme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13271B7729508A4A00AA08E5 /* Debug */,
+				13271B7829508A4A00AA08E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13271B7929508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYukleme" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13271B7A29508A4A00AA08E5 /* Debug */,
+				13271B7B29508A4A00AA08E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13271B7C29508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYuklemeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13271B7D29508A4A00AA08E5 /* Debug */,
+				13271B7E29508A4A00AA08E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		13271B7F29508A4A00AA08E5 /* Build configuration list for PBXNativeTarget "resimYuklemeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13271B8029508A4A00AA08E5 /* Debug */,
+				13271B8129508A4A00AA08E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		13C9B26929793B8B00CDAC83 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		13C9B26A29793B8B00CDAC83 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 13C9B26929793B8B00CDAC83 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 13271B4729508A4900AA08E5 /* Project object */;
+}
